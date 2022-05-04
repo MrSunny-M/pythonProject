@@ -1,0 +1,79 @@
+# https://www.hackerrank.com/challenges/30-operators/tutorial
+
+# Day - 1
+
+""" Sample Input
+
+12
+4.0
+is the best place to learn and practice coding! """
+
+
+i = 4
+d = 4.0
+s = "HackerRank "
+# Declare second integer, double, and String variables.
+a = 0
+b = 0
+
+# Read and save an integer, double, and String to your variables.
+a = int(input())
+b = float(input())
+c = str(input())
+# Print the sum of both integer variables on a new line.
+print(i + a)
+
+# Print the sum of the double variables on a new line.
+print(d + b)
+
+# Concatenate and print the String variables on a new line
+# The 's' variable above should be printed first.
+print(s + c)
+
+""" Sample Output
+
+16
+8.0
+HackerRank is the best place to learn and practice coding! """
+
+# Day - 2
+
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+#
+# Complete the 'solve' function below.
+#
+# The function accepts following parameters:
+#  1. DOUBLE meal_cost
+#  2. INTEGER tip_percent
+#  3. INTEGER tax_percent
+#
+
+
+def solve(meal_cost, tip_percent, tax_percent):
+    # Write your code here
+    tip = meal_cost * tip_percent / 100
+    tax = meal_cost * tax_percent / 100
+    total_cost = tip + tax + meal_cost
+    print(round(total_cost))
+
+
+if __name__ == "__main__":
+    meal_cost = float(input().strip())
+
+    tip_percent = int(input().strip())
+
+    tax_percent = int(input().strip())
+
+    solve(meal_cost, tip_percent, tax_percent)
+
+
+# Day 3 #
+
+

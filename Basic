@@ -1,0 +1,30 @@
+''' a = ['sunny', 'poojitha', 'kamal']
+b = [29, 24, 27]
+c = ['30Lakhs per annum', '7.5Lakhs per annum', '10.8 Lakhs per annum']
+    for name in a
+        for age in b
+            for salary in c:
+                print("People with " + str(a)
+                "with " + int(b)
+                "are earning " + int(c) '''
+
+i = 4
+d = 4.0
+s = 'HackerRank '
+# Declare second integer, double, and String variables.
+a = 0
+b = 0
+
+# Read and save an integer, double, and String to your variables.
+a=int(input())
+b=float(input())
+c=str(input())
+# Print the sum of both integer variables on a new line.
+print(i+a)
+
+# Print the sum of the double variables on a new line.
+print(d+b)
+
+# Concatenate and print the String variables on a new line
+# The 's' variable above should be printed first.
+print(s+c)
